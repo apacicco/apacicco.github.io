@@ -1,19 +1,38 @@
 body {
-    background: peru; 
-font-family: Arial, Helvetica, sans-serif
+    background:#FFD700; 
+    font-family: Arial, Helvetica, sans-serif
 }
 .assignment{
-    background: red;
+    background: #FFE4B5;
     display:flex; 
     padding: 10px;
 }
 .assignment img{
     width: 200px;
-    padding:10px;
-    display:flex;
+    padding:2px;
+    border: 2px dashed #FFA07A;
+    margin: 10px;
 }
+.assignment img:hover{
+    
+    border: 2px dashed #87CEEB;
+    
+}
+
 h1{
-    color: darkgrey;
+    color: purple;
     text-align: center; 
 }
 
+a h2 {
+    Color:blue;
+}
+
+a h3 {
+    Color:blue;
+}
+
+a{
+    text-decoration: none;
+    color:#FFA07A;
+}
