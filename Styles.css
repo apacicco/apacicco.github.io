@@ -5,24 +5,28 @@ body {
 
 .assignments{
     display: flex;
+    flex-wrap:wrap;
   
 }
 .assignment{
-    background: #FFE4B5;
     width:22%;
     padding: 10px;
+    margin:10px;
+    padding: 20px 10px;
+    background: #FFE4B5;
+    
+   
 }
 .assignment img{
     width: 200px;
-    padding:2px;
-    border: 2px dashed #FFA07A;
     margin: 10px;
+    border: 2px dashed #FFA07A;
     display:block;
     margin:auto;
 }
 .assignment img:hover{
     
-    border: 2px dashed #87CEEB;
+    border: 4px dashed #87CEEB;
     
 }
 
@@ -31,20 +35,21 @@ h1{
     text-align: center; 
 }
 
+h1:hover{
+    color: #eb879d;
+}
+
 h2{
     text-align: center;
-}
-
-a h2 {
-    Color:blue;
-
-}
-
-a h3 {
-    Color:blue;
 }
 
 a{
     text-decoration: none;
     color:#FFA07A;
+}
+
+
+
+a:hover{
+    color: #87CEEB;
 }
