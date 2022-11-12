@@ -5,7 +5,7 @@ body {
 
 .assignments{
     display: flex;
-    flex-wrap: wrap;
+  
 }
 .assignment{
     background: #FFE4B5;
