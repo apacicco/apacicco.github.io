@@ -1,0 +1,55 @@
+body {
+    background:#FFD700; 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.assignments{
+    display: flex;
+    flex-wrap:wrap;
+  
+}
+.assignment{
+    width:22%;
+    padding: 10px;
+    margin:10px;
+    padding: 20px 10px;
+    background: #FFE4B5;
+    
+   
+}
+.assignment img{
+    width: 200px;
+    margin: 10px;
+    border: 2px dashed #FFA07A;
+    display:block;
+    margin:auto;
+}
+.assignment img:hover{
+    
+    border: 4px dashed #87CEEB;
+    
+}
+
+h1{
+    color: purple;
+    text-align: center; 
+}
+
+h1:hover{
+    color: #eb879d;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#FFA07A;
+}
+
+
+
+a:hover{
+    color: #87CEEB;
+}
