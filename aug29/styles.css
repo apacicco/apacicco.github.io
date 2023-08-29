@@ -1,0 +1,41 @@
+body{
+    /* Structural components */
+    background-color:orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*tables*/
+
+/*give tables borders*/
+
+
+table{
+
+}
+td{
+    border: 5px solid red
+    
+}
+
+th{
+    border: 5px dotted blue;
+    background-color: bisque;
+}
+
+
+
+
+/*  font  */
+
+
+p{
+    color:blueviolet
+}
+
+h1{
+    color: aliceblue;
+}
+h2{
+    color: darkturquoise;
+}
