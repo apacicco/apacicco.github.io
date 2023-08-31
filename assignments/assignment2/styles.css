@@ -1,0 +1,47 @@
+body{
+    background-color: navajowhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td{
+    border: 5px solid pink
+
+    
+}
+
+th{
+    border: 5px dotted green;
+    background-color: orange;
+}
+
+
+
+
+p{
+    color:rgb(226, 141, 43)
+}
+
+h1{
+    color: darkgoldenrod ;
+}
+h2{
+    color:black darkturquoise;
+}
+
+a:link{
+    color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+    color: violet;
+    background-color: transparent;
+    text-decoration: none;  
+}
+
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
