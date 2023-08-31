@@ -1,6 +1,15 @@
 body{
     background-color: navy;
     font-family: 'Times New Roman', Times, serif;
+    background: url(images/IMG_0565.jpg);
+}
+
+#content {
+    background-color: navy;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 h1{
@@ -32,3 +41,4 @@ a:hover{
     background-color: transparent;
     text-decoration: none;
 }
+

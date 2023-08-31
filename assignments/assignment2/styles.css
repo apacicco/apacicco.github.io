@@ -53,4 +53,34 @@ a:hover{
 }
 
 
+#main-nav a{
+    background: yellowgreen;
+    text-decoration: none;
+    color:aquamarine;
+    padding: 4px;
+    border-radius: 3px;
+
+
+}
+
+#main-nav a:hover{
+    background: blue;
+}
+
+
+#r-things {
+    font-style: italic;
+}
+
+strong{
+    color: cornflowerblue;
+}
+
+.Big {
+    font: size 30px;
+}
+
+
+
+
 
