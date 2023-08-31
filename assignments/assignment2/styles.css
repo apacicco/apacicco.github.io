@@ -23,7 +23,7 @@ img {
 
 
 p{
-    color:rgb(226, 141, 43)
+    color:black;
 }
 
 h1{
@@ -54,7 +54,7 @@ a:hover{
 
 
 #main-nav a{
-    background: yellowgreen;
+    background: palevioletred;
     text-decoration: none;
     color:aquamarine;
     padding: 4px;
