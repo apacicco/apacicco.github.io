@@ -1,10 +1,12 @@
 body{
-    background-color: navajowhite;
+    background-color: pink;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 td{
-    border: 5px solid pink
+    border: 5px solid orange;
+    background-color: tan;
+    
 
     
 }
@@ -14,7 +16,10 @@ th{
     background-color: orange;
 }
 
-
+img {
+    border: 5px solid #5b0de1;
+   
+  }
 
 
 p{
@@ -44,4 +49,8 @@ a:hover{
     color: red;
     background-color: transparent;
     text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+
