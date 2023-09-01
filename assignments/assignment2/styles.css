@@ -1,8 +1,11 @@
+/*Body of website
+*/
 body{
     background-color: pink;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*table background + border
+*/
 td{
     border: 5px solid orange;
     background-color: tan;
@@ -10,29 +13,37 @@ td{
 
     
 }
-
+/*table header details
+*/
 th{
     border: 5px dotted green;
     background-color: orange;
+    
 }
-
+/*Image borders
+    */
 img {
     border: 5px solid #5b0de1;
    
   }
 
-
+/*text color
+    */
 p{
     color:black;
 }
-
+/*Primary Title color
+    */
 h1{
     color: darkgoldenrod ;
 }
+/*Secondary Title color
+    */
 h2{
     color:black darkturquoise;
 }
-
+/*Link color when it appears first, when it is hovered over, and when it is visited
+*/
 a:link{
     color: white;
   background-color: transparent;
@@ -52,7 +63,8 @@ a:hover{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+/*Specific hovering instructions for first 2 links
+*/
 #main-nav a{
     background: palevioletred;
     text-decoration: none;
@@ -67,16 +79,19 @@ a:hover{
     background: blue;
 }
 
-
+/*Italicizes secondary title
+*/
 #r-things {
     font-style: italic;
 }
-
+/*Changing color of bolded words
+*/
 strong{
     color: cornflowerblue;
 }
-
-.Big {
+/*Makes word big
+*/
+.big {
     font: size 30px;
 }
 
