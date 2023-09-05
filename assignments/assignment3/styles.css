@@ -79,16 +79,19 @@ body{
     }
 
     .coll1{
-        flex: 1;
-    }
-
-    .coll2{
-        flex: 2;
-    }
-
-    .minicoll{
         flex: 3;
     }
+    .coll2{
+        flex: 3;
+    }
+
+    .coll3{
+        flex: 3;
+    }
+
+    
+    
+    
 }
 
 
