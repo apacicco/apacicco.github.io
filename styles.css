@@ -6,22 +6,33 @@ body{
 
 #content {
     background-color: navy;
-    width: 75%;
     margin: auto;
     padding: 5px;
-    border-radius: 5px;
+    
+    
+}
+#main-div ul{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 h1{
     color: rgb(255, 98, 0) ;
+    text-align: center;
 }
 
 h2{
     color: orange;
+    text-align: center;
 }
 
 p{
     color: greenyellow;
+    border: solid;
+}
+
+#intro{
+    color: yellowgreen;
 }
 
 a:link{
@@ -42,3 +53,45 @@ a:hover{
     text-decoration: none;
 }
 
+.img-block {
+    border-radius: 5%;
+    margin: auto;
+    
+}
+
+.asscols{
+    background-color: rgb(35, 1, 1)
+    
+}
+
+.asscols h5{
+    color: greenyellow;
+}
+
+.img-block img{
+    background-color: pink;
+    display: flex; 
+    margin: auto;
+    text-align: center;
+}
+
+#assignment {
+    text-align: center;
+    padding: 1%;
+    border: solid;
+}
+
+@media only screen and (min-width: 1000px) {
+    body{
+        background-color: beige;
+    }
+    
+    .img-block ul{
+        display: flex;
+        
+    }
+
+
+
+    
+}
