@@ -1,97 +1,203 @@
-body{
-    background-color: blanchedalmond;
-}
-
-/*Typograpgy*/
-
+/*Structure*/
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: aqua;
+    background-color: lightblue;
+
+}
+#content{
+    width: 85%;
+    margin: auto;
 }
 
 #main-header{
     /*not styling based on element name*/
-    background-color: blueviolet;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+    
 }
 
-#main-content{
-    background-color: greenyellow;
+.flex-container{
+    flex: 1;
 }
 
-#main-footer{
-    background-color: palevioletred;
-}
-
-.padded-area{
-    margin:auto;
-   /*padding: 5px; */
-}
-
-.info{
-    border: 1px solid red;
-
-}
-
-.info header{
+/*images*/
+.ima{
     background-color: blanchedalmond;
-    margin:auto 0;
+    display: inline-block;
+    flex: 1;
 }
 
 
-#main-header nav{/*looks for nav child of main-header*/
 
 
+/*Typograpgy*/
+
+#main-header {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
 }
 
-#main-nav li{
-    list-style-type: none;
- /*   display: inline-block;/*horizontals them*/
 
+/*Main Nav*/
+#main-nav a{
+    text-decoration: none;
+    padding: 1px;
+    color: whitesmoke;
+    margin: 1cm;
 }
 
 #main-nav ul{
-    padding-left: 0px;
+    list-style-type: none;
+    display: inline-block;
 }
 
-#main-nav a{
-    text-decoration: none;
-    /*when you wont to style the text color, you gotta reference the a*/
-    color: black;
 
-}
 
 #main-nav a:hover {/*why is it appearing under the blueviolet as opposed to over it????????????????????????????*/
     border-bottom: 1px solid orange;
-    font-size: 2em;/*ems grow better*/
+    color: navajowhite
 }
+
+
+/*footer*/
+#main-foot{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/*Main work*/
+#english-work{
+    background: pink;
+    padding: 5px;
+    
+}
+/*columns*/
+.collI{
+    background-color: green;
+    border-color: bisque;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.collI1{
+    background-color: palegoldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: auto;
+}
+.collI2{
+    background-color: palegoldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.collI3{
+    background-color: palegoldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: auto;
+}
+
+.coll1of3{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.big-coll{
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 2;
+
+}
+.small-coll{
+    background-color: orange;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    flex: 1;
+}
+
+.coll2of2{
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.coll1of2{
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+/*Column related, always do media query's at the end*/
 
 /*LARGER resolutions: what you have if you're on a non-phone*/
 @media only screen and (min-width: 600px) {
     body{
-        background-color: red;
-       
+        background-color: beige;
     }
-    #main-nav li {
-        display: inline-block;
-    }
-    .columns{
-        display:flex;
+    #main-nav ul {
+        display: flex;
+        border-radius: 20%;
+        margin: 5px;
     }
 
-    .coll1{
-        flex: 3;
+    .flex-container {
+        display: flex;
+        border-radius: 20%;
+        margin: 5px;
     }
-    .coll2{
+
+    #main-nav li, .coll1of2, .coll2of2, .coll1of3 {
+        flex: 1;
+    }
+
+    .collI {
+        display: flex;
+        margin: 5px;
         flex: 3;
     }
 
-    .coll3{
+    .flexI {
+        display: flex;
+        margin: 5px;
         flex: 3;
+    }
+    
+    .collI1{
+        display: flex;
+        flex: 1;
+    }
+    .collI2{
+        display: flex;
+        flex: 1;
+    }
+    .collI3{
+        display: flex;
+        flex: 1;
     }
 
     
-    
+
     
 }
+
+
+
+
+    
+
 
 
