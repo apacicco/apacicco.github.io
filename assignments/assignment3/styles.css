@@ -5,7 +5,7 @@ body{
 
 }
 #content{
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ body{
 
 /*images*/
 .ima{
-    background-color: blanchedalmond;
+    background-color: pink;
     display: inline-block;
     flex: 1;
 }
@@ -75,10 +75,10 @@ body{
 }
 /*columns*/
 .collI{
-    background-color: green;
-    border-color: bisque;
+    background-color: pink;
+    border-color: pink;
     padding: 5px;
-    margin: 5px;
+    margin-left: 110px;
     border-radius: 5px;
 }
 
@@ -88,7 +88,7 @@ body{
     border-radius: 5px;
     margin: 5px;
     border-radius: 5px;
-    flex: auto;
+    
 }
 .collI2{
     background-color: palegoldenrod;
@@ -96,6 +96,7 @@ body{
     border-radius: 5px;
     margin: 5px;
     border-radius: 5px;
+    
 }
 .collI3{
     background-color: palegoldenrod;
@@ -103,7 +104,7 @@ body{
     border-radius: 5px;
     margin: 5px;
     border-radius: 5px;
-    flex: auto;
+    
 }
 
 .coll1of3{
@@ -167,26 +168,33 @@ body{
     .collI {
         display: flex;
         margin: 5px;
-        flex: 3;
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .flexI {
         display: flex;
         margin: 5px;
         flex: 3;
+        width: center;
     }
     
     .collI1{
         display: flex;
         flex: 1;
+        margin: 5px;
     }
     .collI2{
         display: flex;
         flex: 1;
+        margin: 5px;
     }
     .collI3{
         display: flex;
         flex: 1;
+        margin: 5px;
     }
 
     
