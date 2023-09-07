@@ -2,8 +2,8 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: lightblue;
-
 }
+
 #content{
     width: 100%;
     margin: auto;
@@ -13,8 +13,7 @@ body{
     /*not styling based on element name*/
     background-color: grey;
     padding: 5px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
 .flex-container{
@@ -22,14 +21,18 @@ body{
 }
 
 /*images*/
-.ima{
-    background-color: pink;
-    display: inline-block;
-    flex: 1;
+
+#img-block {
+    background:pink;
+    width:100%;
 }
 
-
-
+#img-block img{
+    background-color: pink;
+    display: block; 
+    margin: auto;
+    text-align: center;
+}
 
 /*Typograpgy*/
 
@@ -38,6 +41,9 @@ body{
     border-radius: 5px 5px 0 0;
 }
 
+ul {
+    list-style: none; /* Remove default bullets */
+  }
 
 /*Main Nav*/
 #main-nav a{
@@ -65,6 +71,7 @@ body{
     background-color: blueviolet;
     padding: 5px;
     border-radius: 5px 5px 0 0;
+    margin-right: 0%;/*sbouldn't this push it all the way to the right?*/
 }
 
 /*Main work*/
@@ -74,38 +81,7 @@ body{
     
 }
 /*columns*/
-.collI{
-    background-color: pink;
-    border-color: pink;
-    padding: 5px;
-    margin-left: 110px;
-    border-radius: 5px;
-}
 
-.collI1{
-    background-color: palegoldenrod;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    
-}
-.collI2{
-    background-color: palegoldenrod;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    
-}
-.collI3{
-    background-color: palegoldenrod;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    
-}
 
 .coll1of3{
     background-color: blueviolet;
@@ -145,7 +121,7 @@ body{
 /*Column related, always do media query's at the end*/
 
 /*LARGER resolutions: what you have if you're on a non-phone*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     body{
         background-color: beige;
     }
@@ -159,53 +135,24 @@ body{
         display: flex;
         border-radius: 20%;
         margin: 5px;
-    }
+    
 
-    #main-nav li, .coll1of2, .coll2of2, .coll1of3 {
-        flex: 1;
     }
 
     .collI {
         display: flex;
-        margin: 5px;
         flex: 1;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 
-    .flexI {
-        display: flex;
-        margin: 5px;
-        flex: 3;
-        width: center;
-    }
-    
-    .collI1{
-        display: flex;
+
+    #main-nav li, .coll1of2, .coll2of2, .coll1of3, .collI1 {
         flex: 1;
-        margin: 5px;
-    }
-    .collI2{
-        display: flex;
-        flex: 1;
-        margin: 5px;
-    }
-    .collI3{
-        display: flex;
-        flex: 1;
-        margin: 5px;
     }
 
-    
+    #img-block{
+        display: flex;
+
+    }
 
     
 }
-
-
-
-
-    
-
-
-
