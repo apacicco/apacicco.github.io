@@ -68,12 +68,15 @@ ul {
 
 /*footer*/
 #main-foot{
-    background-color: blueviolet;
+    background-color: grey;
     padding: 5px;
     border-radius: 5px 5px 0 0;
     margin-right: 0%;/*sbouldn't this push it all the way to the right?*/
 }
-
+#main-foot{
+    text-align: right;
+    color: azure;
+}
 /*Main work*/
 #english-work{
     background: pink;
@@ -84,7 +87,7 @@ ul {
 
 
 .coll1of3{
-    background-color: blueviolet;
+    background-color: orange;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
@@ -119,6 +122,9 @@ ul {
     border-radius: 5px;
 }
 /*Column related, always do media query's at the end*/
+
+
+
 
 /*LARGER resolutions: what you have if you're on a non-phone*/
 @media only screen and (min-width: 1000px) {
