@@ -18,6 +18,15 @@ body{
     text-decoration: none;
 }
 
+#user-nav ul{
+    font-size: small;
+    color: white;
+}
+
+#user-nav li{
+    font-size: small;
+    color: white;
+}
 
 
 /*any horizontal nav*/
