@@ -4,31 +4,66 @@ body{
 
 #main-header, #main-footer{
     margin: auto;
-    width: 80%;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: black;
     padding: 5px;
     text-decoration: none;
+}
+
+#main-body h1{
+    color: white;
+    margin-right: 25%;
+    margin-top: 0;
+    background-color: #A27E82;
+    padding-right: 1px;
+    width: 40%;
 }
 
 #main-footer{
     margin: auto;
-    width: 80%;
-    background-color: maroon;
+    width: 70%;
+    background-color: #73000A;
     padding: 5px;
     text-decoration: none;
 }
 
-#user-nav ul{
+#user-nav a{
     font-size: small;
     color: white;
 }
 
-#user-nav li{
+#user-nav a:hover{
+    font-size: small;
+    background-color: red;
+    margin: auto;
+}
+
+#user-nav li ul{
     font-size: small;
     color: white;
 }
 
+#user-nav ul {
+    background-color: #73000A;
+}
 
+#main-nav li a{
+    background-color: #73000A;
+    color: white;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#main-nav {
+    background-color: #73000A;
+    width: 100%;
+}
+
+#main-nav li a:hover{
+    background-color: red;
+}
 /*any horizontal nav*/
 .horizontal-nav ul{
     padding-left: 0px;
@@ -45,20 +80,31 @@ body{
 
 
 /*main nav*/
-#main-nav {
 
+#logo {
+    margin-left: 15%;
+    margin-top: 5%;
 }
-
+#first-img{
+    margin: auto;
+    width: 100%;
+}
 
 /*typo*/
 h1{
     text-align: center;
 }
 
+
+#main-footer {
+    margin-top: 0;
+}
 #main-footer,
 #main-footer a{
     color: white;/*text*/
     text-decoration: none;
+    margin-top: 0;
+    width: 100%;
     
 }
 
@@ -70,11 +116,356 @@ h1{
     list-style-type: none;
 }
 
+.first-p{
+    text-align: center; 
+    background-color: white;
+}
 
 
+.compressed-center{
+    margin: auto;
+    width: 50%;
+}
 .footer-logo-text{
     font-size: 2em;
 }
+
+
+#foot-col-one{
+    margin-right: 20%;
+}
+
+#foot-col-two ul{
+    margin-left: 0%;
+    margin-right: 30%;
+}
+
+.for-the-gap {
+    color: #73000A;
+}
+
+#foot-col-three h3{
+    margin-right: 20%;
+    padding-top: 15px;
+}
+
+
+
+/* main website columns*/
+
+#first-col-div-2{
+    background-color: #73000A;
+    margin-top: 0;
+
+}
+
+#first-col {
+    margin: 0;
+    padding-top: 0;
+}
+
+#first-col-div-2 h1{
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 30%;
+    background-color: #73000A;
+}
+#first-col-div-2 p{
+    text-align: left;
+    margin-left: 5%;
+    color: white;
+    margin-right: 20%;
+    
+}
+
+#first-col-div-3{
+    background-color: black;
+    margin-top: 0;
+}
+
+#first-col-div-3 p{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#first-col-div-3 h2{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+#third-col-div-2 {
+    background-color: #ECECEC ;
+}
+#third-col-div-2 h1{
+    background-color: #ECECEC;
+    color: #73000A;
+    text-align: center;
+    
+}
+#third-col-div-2 p{
+    text-align: center;
+    font-size: small;
+}
+
+
+
+#fourth-col-div-2 {
+    background-color: #570008;
+    color: white;
+}
+
+#fourth-col-div-2 h1 {
+    background-color: #570008;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#fourth-col-div-2 p {
+    background-color: #570008;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#fifth-col-words p{
+    text-align: left;
+    width: 20%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+#fifth-col-image {
+    margin-left: 5%;
+    margin-top: 0%;
+    margin-right: 8%;
+    margin-bottom: 0%;
+}
+
+#fifth-col-words h1{
+    margin-left: 10%;
+    background-color: white;
+    color: #570008;
+    margin-top: 10%;
+    margin-bottom: 0%;
+
+}
+
+#fifth-col-words p{
+    background-color: white;
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 2%;
+    width: 90%;
+
+}
+
+#sixth-col-words h1{
+    background-color: #1F414D;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: xx-large;
+    width: 50%;
+}
+
+#sixth-col-words {
+    background-color: #1F414D;
+}
+
+#sixth-col-words p{
+    color: white;
+    margin-left: 2%;
+    width: 80%;
+}
+
+#img-col-words {
+    padding-top: 300px;
+    background: url(images/IMG_0565.jpg);
+    width: 100%;
+    height: 200%;
+    padding-bottom: 50px;
+    
+}
+
+#img-col h1 {
+    background-color: #73000A;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 0;
+    padding-right: 0;
+
+}
+
+#img-col p{
+    background-color: #73000A;
+    margin-top: 0;
+    width: 40%;
+    color: white;
+    margin-bottom: 0;
+}
+
+#final-col {
+    margin-bottom: 0%;
+}
+#final-col-words h1{
+    background-color: white;
+    color: #73000A;
+    margin-left: 4%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+#final-col-words p{
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 5%;
+}
+
+#footer-intro img{
+    margin-left: 70%;
+}
+
+
+#footer-intro {
+    background-color: #73000A;
+    margin-top: 0%;
+    width: 100%;
+}
+
+#footer-intro h1{
+    
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: white;
+    background-color: #73000A;
+    max-width: 100%;;
+}
+
+.social {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+
+
+
+
+/*BUTTONS*/
+#first-col-div-3 a{
+    margin-left: 30%;
+    margin-top: 20%;
+  
+}
+
+#third-col-div-2 a{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#fourth-col-div-2 a{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#fifth-col-words a{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+#sixth-col-words a {
+    margin-left: 6%;
+}
+
+#img-col-words a{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#final-col-words a{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#minibutton {
+    background-color: white;
+    padding: 0%;
+    padding-left: 0;
+}
+
+#minibutton p, a{
+    text-decoration: none;
+    color: red;
+    list-style: circle;
+    
+}
+
+#minibutton p:hover, a{
+    color: white;
+    /*every time im putting a background color here, it makes all the buttons have the red background. Im gonna omit it*/
+}
+
+/*nested columns*/
+
+#nested-title h1{
+    text-align: center;
+    margin-left: 30%;
+    background-color: white;
+    color: #73000A;
+}
+
+.nested-cols a{
+    background-color: white;
+    padding: 15%;
+}
+
+
+
+#col-w-many-cols a:hover{
+    background-color: #F0F0F0;
+}
+
+#col-w-many-cols p:hover{
+    background-color: #F0F0F0;
+}
+
+.nested-cols p{
+    font-size: x-small;
+    margin-top: 0;
+    margin-left: 0;
+    width: 3cm;
+    text-align: left;
+}
+
+
+#col-w-many-cols a{
+    margin: auto;
+    display: block;
+    width: max-content;
+    padding: 3%;
+}
+
+#col-w-many-cols p{
+    margin: auto;
+    display: block;
+    padding: 10%;
+}
+
+#col-w-many-cols p strong{
+    color: red;
+}
+
+
 
 /*larger res*/
 
@@ -91,6 +482,7 @@ h1{
 
     #user-nav ul{
         justify-content: center;
+        display: flex;
     }
 
     #user-nav{
@@ -102,9 +494,99 @@ h1{
         justify-content: space-between;
     }
 
+    #first-img{
+        display: flex;
+    }
+
     .coll1of2{
         flex:1;
     }
 
-    
+    #first-col {
+        display: flex;
+    }
+
+    #second-col {
+        display: flex;
+    }
+
+    #third-col {
+        display: flex;
+    }
+
+    #first-col-div-3 a{
+        display: block;
+    }
+
+    #first-col-div-2 h1{
+        margin-left: 5%;
+        margin-top: 40%;
+        width: 30%;
+        background-color: #73000A;
+    }
+
+    #third-col-div-2 h1{
+        background-color: #ECECEC;
+        color: #73000A;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    #fourth-col-div-2 h1{
+        background-color: #570008;
+        color: white;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    #fourth-col-div-2 p {
+        background-color: #570008;
+        color: white;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    /*flexed buttons */
+#first-col-div-3 a{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#third-col-div-2 a{
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#col-w-many-cols{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fourth-col {
+    display: flex;
+}
+
+#fifth-col {
+    display: flex;
+}
+
+#fifth-col-image {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-bottom: 3% ;
+}
+
+#sixth-col{
+    display: flex;
+}
+
+#final-col{
+    display:flex;
+}
+
+#footer-intro{
+    display: flex;
+    margin-left: 0;
+}
 }
