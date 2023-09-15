@@ -97,7 +97,7 @@ ul {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    flex: 2;
+    flex: 2;/*ratio*/
 
 }
 .small-coll{
