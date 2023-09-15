@@ -57,7 +57,12 @@ a:hover{
 }
 
 .asscols:hover {
-    background-color: #95f195;
+    background-color: #ad544f;
+
+}
+
+.asscols:hover h5 {
+    color: #B5B5A9;
 }
 
 .asscols h5{

@@ -19,7 +19,6 @@ const moveButton = () => {
     document.getElementById("square").classList.add("animate");
 }
 
-
 const writeMessage = () => {
     const firstName = document.getElementById("txt-first-name").value;
     const rating = document.getElementById("txt-product-name").value;
