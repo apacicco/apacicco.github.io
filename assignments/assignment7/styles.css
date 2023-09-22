@@ -1,0 +1,175 @@
+body {
+   background-color: var(--back); 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    /*applies to everything*/
+    --primary: darkblue;
+    --secondary: darkgreen;
+    --tertiary: orange;
+    --back: skyblue;
+    --headback: bisque;
+
+
+    --percent: 0%;
+
+
+    --quarter:25%;
+    --half: 50%;
+    --threeQuarter: 75%;
+    --whole: 100%;
+    --zero: 0%;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.hide-small {
+    display: none;
+}
+
+#exercises {
+    display: block;
+    width: 100%;
+    /*
+    EDITed
+    */
+}
+
+
+#exercises a{
+    text-decoration: none;
+    
+}
+
+#main-nav {
+    border: solid red;
+    background-color: var(--headback);
+}
+
+#pg1 {
+    border: solid blue;
+    background-color: yellow;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/*buttons*/
+#ex-one-button {
+    background-color:  aquamarine;; /* Green */
+    border: solid red;
+    color: rgb(231, 98, 98);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+
+  }
+
+  #ex-two-button {
+    background-color: aquamarine;; /* Green */
+    border: solid red;
+    color: rgb(231, 98, 98);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+  }
+
+#pg2 {
+    border: dotted greenyellow;
+    width: 25%;
+    margin: 0 auto;
+}
+
+#pg2 h2{
+    text-align: center;
+}
+
+
+#pg2 p{
+    margin: 5% auto;
+}
+  /*
+  changing color for therm
+  */
+.therm-red-color {
+    background: linear-gradient(0deg, red var(--percent), white var(--percent) 100%);
+    /*background: linear-gradient(0deg, red 50%, white 50% 100%);*/
+    /*first color begins at 0, ends at 45%, second begins at 45% and goes to the end. starts from bottom*/
+    /*
+
+
+
+
+
+    background: linear(90%, pink var(--num), skyblue var(--num), 100%);s
+    */
+}
+
+/*
+i guess we're making like four different thermometer design classes 
+*/
+
+#rectangle {
+    background-color: white;
+	border-right: 25px solid transparent;
+    border-left: 50px;
+    margin: 0 auto;
+	height: 500px;
+	width: 50px;
+    line-height: 100px;
+}
+
+
+
+
+@media only screen and (min-width: 1000px) { 
+    #hamburger div {
+        display: none;
+    }
+
+    .hide-small {
+        display: block;
+    }
+
+    #exercises {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    #ex-one {
+        text-align: center;
+        border: dotted palegreen;
+        margin: center;
+        padding: center;
+        width: 50%;
+    }
+
+    #ex-two {
+        text-align: center;
+        border: dotted palegreen;
+        margin: center;
+        padding: center;
+        width: 50%;
+    }
+
+
+}

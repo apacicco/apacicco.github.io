@@ -29,4 +29,15 @@ const writeMessage = () => {
     
     messageP.innerHTML += `<section class = "borders"> <p>product: ${firstName}</p> <p>stars: ${rating}</p> <p>${comment}</p> <p> user name: ${user}</p></section>`;
 
+    const section = document.createElement("section");//creates a section in the cloud that can be modified in this file
+    messageP.append(section);
+    const h3 = document.createElement("h3");
+    h3.textContent = `${firstName} ${rating}`;//makes these two variables h3 format
+    section.append(h3);
+
 }
+
+/*
+-gotta review if statements
+-review hamburger toggling
+*/

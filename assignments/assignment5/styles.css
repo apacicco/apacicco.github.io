@@ -466,6 +466,10 @@ h1{
 }
 
 
+.hide-small {
+    display: none;
+}
+
 
 /*larger res*/
 
@@ -588,5 +592,10 @@ h1{
 #footer-intro{
     display: flex;
     margin-left: 0;
+}
+
+
+#user-nav {
+    display: flex;
 }
 }

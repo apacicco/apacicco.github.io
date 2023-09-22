@@ -55,7 +55,6 @@ ul {
 
 #main-nav ul{
     list-style-type: none;
-    display: inline-block;
 }
 
 
@@ -124,6 +123,19 @@ ul {
 /*Column related, always do media query's at the end*/
 
 
+.hide-small {
+    display: none;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
 
 
 /*LARGER resolutions: what you have if you're on a non-phone*/
@@ -159,5 +171,14 @@ ul {
         display: flex;
     }
 
+    
+    .hide-small {
+        display: block;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+    
     
 }
