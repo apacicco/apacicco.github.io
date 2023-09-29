@@ -72,12 +72,11 @@ a:hover{
 
 .img-block img{
     background-color: pink;
-    display: flex; 
     margin: auto;
     text-align: center;
 }
 
-#assignment {
+.asscols {
     text-align: center;
     padding: 1%;
     border: solid;
@@ -91,11 +90,12 @@ a:hover{
     .img-block {
         display: flex;
         flex-wrap: wrap;
-        
+        justify-content: center;
     }
 
-    .img-block section {
-        flex: 30%;
+    .asscols {
+        flex:25%;
+        flex-grow:0;
     }
 
 
