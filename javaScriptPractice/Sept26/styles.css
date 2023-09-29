@@ -1,0 +1,11 @@
+
+
+#square {
+
+    --x : 100px; /* variables can be declared at root or scope*/
+    background-color: beige;
+    width: var(--x);
+    height: var(--x);
+    text-align: center;
+    line-height: 100px;
+}

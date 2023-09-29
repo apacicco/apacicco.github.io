@@ -123,7 +123,7 @@ const averageAge = () => {
     }
     else if((age2 > age3 && age3 > age1))
     {
-        messageP.innerHTML += `<p>Oldest to Youngest: ${name2}, ${name3}, ${name2}</p>`;
+        messageP.innerHTML += `<p>Oldest to Youngest: ${name2}, ${name3}, ${name1}</p>`;
     }
     else if((age3 > age2 && age2 > age1))
     {

@@ -1,0 +1,69 @@
+:root {
+    --numMargin: 0px;
+
+    --percent: 0%;
+}
+
+body {
+    background-color: blue;
+}
+
+#running-man {
+    background-color:#FFFFFF ;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+}
+
+#pg1{
+    padding-right: 1%;
+    height: 100%;
+}
+
+#right {
+   left:var(--numMargin);
+   position:relative;
+}
+
+.hide {
+    display: none;
+}
+
+/*therm*/
+#rectangle {
+    background-color: white;
+	border-right: 25px solid transparent;
+    border-left: 50px;
+    margin: 0 auto;
+	height: 500px;
+	width: 50px;
+    line-height: 100px;
+}
+
+.therm-red-color {
+    background: linear-gradient(0deg, red var(--percent), white var(--percent) 100%);
+}
+
+
+#pg2 {
+    background-color: aqua;
+    margin: 2%;
+    padding: 2%;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    #flexer{
+        display: flex;
+        flex: wrap;
+    }
+    #pg1 {
+        flex: 1;
+    }
+    #pg2 {
+        flex: 1;
+    }
+}
