@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+}
+/*header*/
+
+#header-image img{
+    margin-top: 0%;
+}
+
+#login-info{
+    background-color: orange;
+    margin: auto;
+    width: 50%;
+    margin-right: 0;
+}
+
+#main-nav h2{
+    margin: auto;
+
+}
+
+#home-main-img img{
+    width:100%;
+}
+/*Home Page*/
+
+#home-page {
+    background-color: grey;
+}
+
+#home-page h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.home-page-boxes{
+    text-align: center;
+    margin: auto;
+    border: solid black;
+    width: 20%;
+}
+
+@media only screen and (min-width: 1000px) { 
+    #login-info {
+        display: flex;
+    }
+    #main-nav{
+        display: flex;
+    }
+    .home-page{
+        display: flex;
+    }
+
+}

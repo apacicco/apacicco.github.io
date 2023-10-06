@@ -1,0 +1,83 @@
+body{
+    background-color: navajowhite;
+}
+
+.rel {
+    z-index: 1;
+    position: relative;
+    width: 100px;
+    left: 99.8%;
+    border: 1px solid red;
+    bottom: 37px;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.orange {
+    background-color: orange;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.green {
+    background-color: green;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.blue {
+    background-color: blue;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.indigo {
+    background-color: indigo;
+    height: 50px;
+    width: 80%;
+    margin: 0;
+}
+
+.violet {
+    background-color: violet;
+    height: 50px;
+    width: 66.2%;
+    margin: 0;
+}
+#rainbow {
+    border: dotted black;
+    width: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+#quotes-div {
+    width: 50%;
+    border: dotted red
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #flex-container{
+        display: flex;
+    }
+}
+
+
