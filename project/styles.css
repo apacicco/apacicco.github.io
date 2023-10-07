@@ -36,11 +36,23 @@ body {
 .movement-main-nav {
     margin: auto;
     text-align: center;
+    text-decoration: none;
+
+}
+
+#main-nav a:hover{
+    color: gold;
+    
 }
 
 #main-nav h2{
     margin: auto;
 
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
 }
 
 #home-main-img img{
