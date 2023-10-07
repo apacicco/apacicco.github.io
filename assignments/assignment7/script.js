@@ -9,7 +9,7 @@ window.onload = () => {
 
 }
 
-const toggleNav = () => {//doing nothing rn 
+const toggleNav = () => { 
     document.getElementById("main-nav-items").classList.toggle("hide-small");
     console.log("toggleNav here");
 }

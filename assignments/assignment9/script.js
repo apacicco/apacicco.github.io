@@ -16,16 +16,16 @@ let quotes = ["And still, I rise. - Maya Angelou",
 let count = 0;
 const changeQuote =()=> {
     let result = document.getElementById("quote");
-    result.innerHTML = quotes[0];
     
-    if(quotes[count] != null && count<5)
+    if(quotes[count] != null && count < quotes.length)
     {
         result.innerHTML = quotes[count];
         count++;
     }
     else 
     {
-        count = 0;
+        result.innerHTML = quotes[count];
+        count = 1;
     }
     
     
