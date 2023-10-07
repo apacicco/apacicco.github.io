@@ -106,11 +106,16 @@ body {
 }
 
 #store-image {
-    margin: auto;
+    margin-left: 43%;
+}
+
+#store-image img{
+    width: 43%;
 }
 
 .store-page-boxes {
     margin: auto;
+
 }
 
 .mini-store-photos p{
@@ -201,6 +206,9 @@ body {
     }
     #store{
         flex: wrap;
+    }
+    #store-image {
+        margin-left: 0%;
     }
     .jewelry-photos {
         display: flex;
