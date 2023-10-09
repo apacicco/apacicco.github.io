@@ -14,10 +14,11 @@ let quotes = ["And still, I rise. - Maya Angelou",
 "Broken crayons still color. - Ralph Waldo Emerson"];
 
 let count = 0;
+
 const changeQuote =()=> {
     let result = document.getElementById("quote");
     
-    if(quotes[count] != null && count < quotes.length)
+    if(quotes[count] != null && count < 4)
     {
         result.innerHTML = quotes[count];
         count++;
@@ -25,7 +26,7 @@ const changeQuote =()=> {
     else 
     {
         result.innerHTML = quotes[count];
-        count = 1;
+        count = 0;
     }
     
     
