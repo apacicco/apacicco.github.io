@@ -49,7 +49,7 @@ const movePhoto =()=> {
 
 const gradualIncrease = setInterval(() => {
     count++;
-    if(donation > 0 && count < (donation/10000)*100)
+    if(donation > 0 && count <= (donation/10000)*100)
     {
         console.log("donations");
         root.style.setProperty("--percent", count + "%");
