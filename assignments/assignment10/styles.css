@@ -1,0 +1,76 @@
+body {
+    background-color: antiquewhite;
+    
+}
+
+.toy img{
+    background-color: aquamarine;
+    border: black dotted;
+    margin-left: 5%;
+    padding: 1%;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.toy{
+    width: 28%;
+    margin: auto;
+    margin-bottom: 10%;
+    height: 50%;
+
+    position: relative;
+}
+
+
+.toy ul {
+    z-index: 5;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 50%;
+    list-style-type: none;
+    padding-left: 10px;
+    width: 83%;
+}
+
+.toy h3 {
+    z-index: 5;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 40%;
+    list-style-type: none;
+    width: 83%;
+    padding-left: 15px;
+
+}
+
+.transparent {
+    opacity: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    #flex-container{
+        display: flex;
+    }
+
+    #toy-list  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+}
