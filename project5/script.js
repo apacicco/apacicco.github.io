@@ -1,5 +1,5 @@
 const getMovies = async () => {
-    const url = "https://apacicco.github.io/project5/jewelry.json";
+    const url = "jewerly.json";
 
 
     try{
@@ -49,11 +49,11 @@ const getMovieItem= (movie)=>{
     ul.append(getLi(`Category: ${movie.category}`));
     ul.append(getLi(`Materials: ${movie.materials}`));
     ul.append(getLi(`Price: ${movie.price}`));
-   // ul.append(getLi(`Description: ${movie.description}`));
+    ul.append(getLi(`Description: ${movie.description}`));
     
 
    let img = document.createElement("img");
-   img.src = "https://apacicco.github.io/json/" + movie.img;
+   img.src = movie.img;
    img.classList.add("img-sizer");
    section2.append(img);
 
