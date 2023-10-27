@@ -1,0 +1,42 @@
+[
+    {
+        "jewelId": "1",
+        "name": "Engagement ring",
+        "category": "fingers",
+        "materials" : "diamonds, silver, gold, or platinum",
+        "price": "$100 - $1000",
+        "img": "images/wedding-ring-store.jpg"
+    },
+    {
+        "jewelId": "2",
+        "name": "Earrings",
+        "category": "face",
+        "materials" : "any stone, any metal",
+        "price": "$20 - $800",
+        "img": "images/studs-store.jpg"
+    },
+    {
+        "jewelId": "3",
+        "name": "Bracelet",
+        "category": "hands",
+        "materials" : "any stone, any metal",
+        "price": "$50 - $500",
+        "img": "images/wedding-ring-store.jpg"
+    },
+    {
+        "jewelId": "4",
+        "name": "Medals",
+        "category": "neck",
+        "materials" : "gold, platinum",
+        "price": "$70 - $200",
+        "img": "images/wedding-ring-store.jpg"
+    },
+    {
+        "jewelId": "5",
+        "name": "Necklace",
+        "category": "neck",
+        "materials" : "any stone, any metal",
+        "price": "$50 - $300",
+        "img": "images/wedding-ring-store.jpg"
+    }
+]
