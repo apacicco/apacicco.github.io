@@ -1,5 +1,5 @@
 const getMovies = async () => {
-    const url = "jewerly.json";
+    const url = "https://apacicco.github.io/project5/jewelry.json";
 
 
     try{
@@ -15,7 +15,7 @@ const getMovies = async () => {
 const showMovies =async()=> {
     let movies = await getMovies();
 
-    let moviesSection = document.getElementById("movies-section");
+    let moviesSection = document.getElementById("store-section");
     
     movies.forEach(movie => {
         //movie is 1 movie

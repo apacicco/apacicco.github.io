@@ -146,6 +146,50 @@ body {
  }
  
  /*store*/
+ .p-flex {
+    margin: 0;
+    padding-left: 5px;
+    list-style-type: none;
+    margin-left: 37px;
+
+}
+
+.p-flex ul{
+    list-style-type: none;
+}
+
+.img-flexing {
+    display: block;
+    
+}
+
+
+.img-sizer {
+    width: 200px;
+    height: 200px;;
+}
+
+/*
+.img-sizer:hover {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+*/
+
+.section {
+    display: flex;
+    background-color: rgb(220, 220, 220);
+    border: dotted black;
+}
+
+
+/*
+
+
+
+
  .jewelry-photos {
      padding: auto;
      border: 5px solid black;
@@ -194,6 +238,7 @@ body {
  #store {
      margin: 5px;
  }
+*/
  
  /*reviews*/
  #comments {
