@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+
+    <body>
+        <h1>Joi and Multer!</h1>
+            <div id="flex-container">
+                <section id="things-section"> 
+                        <span class="close">&times;</span>
+
+                    <h3 id="add-jewelry">Jewelry</h3>
+                    <form id="add-edit-JEWEL-form" method="post">
+                        <input type="hidden" name="_id" value="-1" />
+                        <p>
+                            <label for="name "> Your Name:</label>
+                            <input type="text" id="name" name="name" required />
+                        </p>
+                        <p>
+                            <label for="name "> Potential Jewelry Idea:</label>
+                            <input type="text" id="name" name="name" required />
+                        </p>
+                        <p>
+                            <label for="description">Description:</label>
+                            <input type="text" id="description" name="description" required />
+                        </p>
+
+
+                        <p id="jewels-p ">
+                            <label class="inline">Jewels:</label>
+                            <a href="#" id="add-jewelry">Add New Jewelry</a>
+                            <section id="jewel-boxes"></section>
+                        </p>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+
+                </section>
+
+            </div>
+    </body>
+
+</html>
