@@ -82,6 +82,12 @@ a:hover{
     border: solid;
 }
 
+#final {
+    width: 100%;
+    padding-top: 5px;
+   
+}
+
 @media only screen and (min-width: 1000px) {
     body{
         background-color: beige;
@@ -97,6 +103,8 @@ a:hover{
         flex:25%;
         flex-grow:0;
     }
+
+    
 
 
     
